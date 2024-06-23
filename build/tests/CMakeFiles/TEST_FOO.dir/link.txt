@@ -1,1 +1,0 @@
-ccache /usr/bin/gcc -g3 -g3 CMakeFiles/TEST_FOO.dir/test_foo.c.o -o TEST_FOO  ../_deps/unity-build/libunity.a prototype/libPROTOTYPES.a -lm -lc

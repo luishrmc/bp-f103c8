@@ -1,2 +1,0 @@
-ccache /opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libPROTOTYPES.a CMakeFiles/PROTOTYPES.dir/src/prototype.c.o
-ccache /opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libPROTOTYPES.a
