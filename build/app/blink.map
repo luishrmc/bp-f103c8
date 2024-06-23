@@ -1,0 +1,1348 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+                              /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (exit)
+/usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+                              /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                              /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (__libc_init_array)
+/usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                              /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (memset)
+../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                              CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o (HAL_Init)
+../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+                              ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o) (HAL_NVIC_SetPriorityGrouping)
+../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+                              CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o (HAL_GPIO_Init)
+../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+                              CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o (HAL_RCC_OscConfig)
+/usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-errno.o)
+                              CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o (__errno)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .data          0x0000000000000000        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .rodata        0x0000000000000000       0x24 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .text          0x0000000000000000       0x7c /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.exidx     0x0000000000000000       0x10 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1b /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x28 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000000000       0x60 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .text          0x0000000000000000       0x14 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0xa6c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x20f CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x2e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x56 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x51 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x103 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x6a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x1df CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0xbd CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0xd23 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000     0xe09e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x6d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000     0x348d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x174 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x5c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x5bc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x289 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x1cb CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x114 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x1b2 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x27 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x136 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x1bc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x3c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x57 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x87 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x240 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000      0x140 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000000000       0x83 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .bss.__env     0x0000000000000000        0x4 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .data.environ  0x0000000000000000        0x4 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text.initialise_monitor_handles
+                0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._getpid  0x0000000000000000        0xe CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._kill    0x0000000000000000       0x20 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._exit    0x0000000000000000       0x14 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._read    0x0000000000000000       0x3a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._write   0x0000000000000000       0x38 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._close   0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._fstat   0x0000000000000000       0x1e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._isatty  0x0000000000000000       0x14 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._lseek   0x0000000000000000       0x18 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._open    0x0000000000000000       0x1a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._wait    0x0000000000000000       0x1e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._unlink  0x0000000000000000       0x1e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._times   0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._stat    0x0000000000000000       0x1e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._link    0x0000000000000000       0x20 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._fork    0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .text._execve  0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_info    0x0000000000000000      0x6b2 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_abbrev  0x0000000000000000      0x17d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_aranges
+                0x0000000000000000       0xa8 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_ranges  0x0000000000000000       0x98 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x1fd CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0xa6c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x5e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x18 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x5c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x35 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x57 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x174 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x341 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x43 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x58 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x182 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x35 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x6a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0xb2 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x2e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x102 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x241 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x129 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000      0x105 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_macro   0x0000000000000000       0x43 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_line    0x0000000000000000      0x567 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_str     0x0000000000000000     0x71e8 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .comment       0x0000000000000000       0x4a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .debug_frame   0x0000000000000000      0x2ac CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .bss.__sbrk_heap_end
+                0x0000000000000000        0x4 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .text._sbrk    0x0000000000000000       0x6c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_info    0x0000000000000000      0x15f CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_abbrev  0x0000000000000000       0xa6 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0xec CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000      0xa6c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x5e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x18 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x5c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x35 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000      0x174 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x43 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x57 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x58 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000      0x182 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000      0x23b CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000      0x103 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000       0x6a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_macro   0x0000000000000000      0x1df CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_line    0x0000000000000000      0x2a6 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_str     0x0000000000000000     0x5716 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .comment       0x0000000000000000       0x4a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .debug_frame   0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .ARM.attributes
+                0x0000000000000000       0x2d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .rodata.APBPrescTable
+                0x0000000000000000        0x8 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0xe4 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0xa6c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x2e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x56 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x51 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x103 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x6a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x1df CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0xbd CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0xd23 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000     0xe09e CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x6d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x20f CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000     0x348d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x174 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x5c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x5bc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x289 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x1cb CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x114 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x1b2 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x27 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x136 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x1bc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x3c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x57 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x87 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x240 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000      0x140 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000000000       0x83 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .data          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .bss           0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_DeInit
+                0x0000000000000000       0x30 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_MspInit
+                0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_MspDeInit
+                0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetTickPrio
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_SetTickFreq
+                0x0000000000000000       0x50 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetTickFreq
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_Delay
+                0x0000000000000000       0x48 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_SuspendTick
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_ResumeTick
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetHalVersion
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetREVID
+                0x0000000000000000       0x18 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetDEVID
+                0x0000000000000000       0x18 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetUIDw0
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetUIDw1
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_GetUIDw2
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_DBGMCU_EnableDBGSleepMode
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_DBGMCU_DisableDBGSleepMode
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_DBGMCU_EnableDBGStopMode
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_DBGMCU_DisableDBGStopMode
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_DBGMCU_EnableDBGStandbyMode
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .text.HAL_DBGMCU_DisableDBGStandbyMode
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0xa6c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x20f ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x2e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x56 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x51 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x103 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x6a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x1df ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0xbd ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0xd23 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000     0xe09e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x6d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000     0x348d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x174 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x5c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x5bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x289 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x1cb ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x114 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x1b2 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x27 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x136 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x1bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x34 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x3c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x57 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x87 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x240 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000      0x140 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x0000000000000000       0x83 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .data          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .bss           0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_EnableIRQ
+                0x0000000000000000       0x38 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_DisableIRQ
+                0x0000000000000000       0x48 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_GetPendingIRQ
+                0x0000000000000000       0x40 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_SetPendingIRQ
+                0x0000000000000000       0x3c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_ClearPendingIRQ
+                0x0000000000000000       0x3c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_GetActive
+                0x0000000000000000       0x40 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_GetPriority
+                0x0000000000000000       0x4c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.NVIC_DecodePriority
+                0x0000000000000000       0x6c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_SystemReset
+                0x0000000000000000       0x2c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_EnableIRQ
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_DisableIRQ
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_SystemReset
+                0x0000000000000000        0x8 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_GetPriorityGrouping
+                0x0000000000000000        0xe ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_GetPriority
+                0x0000000000000000       0x2c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_SetPendingIRQ
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_GetPendingIRQ
+                0x0000000000000000       0x1e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_GetActive
+                0x0000000000000000       0x1e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x0000000000000000       0x38 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_SYSTICK_IRQHandler
+                0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_SYSTICK_Callback
+                0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0xa6c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x20f ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x2e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x56 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x51 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x103 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x6a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x1df ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0xbd ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0xd23 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000     0xe09e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x6d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000     0x348d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x174 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x5c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x5bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x289 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x1cb ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x114 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x1b2 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x27 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x136 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x1bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x34 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x3c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x57 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x87 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x240 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000      0x140 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x0000000000000000       0x83 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .text          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .data          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .bss           0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .text.HAL_GPIO_DeInit
+                0x0000000000000000      0x178 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .text.HAL_GPIO_ReadPin
+                0x0000000000000000       0x2e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .text.HAL_GPIO_LockPin
+                0x0000000000000000       0x4e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x0000000000000000       0x30 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .text.HAL_GPIO_EXTI_Callback
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0xa6c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x20f ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x2e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x56 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x51 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x103 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x6a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x1df ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0xbd ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0xd23 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000     0xe09e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x6d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000     0x348d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x174 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x5c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x5bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x289 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x1cb ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x114 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x1b2 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x27 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x136 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x1bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x34 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x3c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x57 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x87 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x240 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000      0x140 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x0000000000000000       0x83 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .group         0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .data          0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .bss           0x0000000000000000        0x0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_DeInit
+                0x0000000000000000      0x134 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_MCOConfig
+                0x0000000000000000       0x70 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_EnableCSS
+                0x0000000000000000       0x18 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_DisableCSS
+                0x0000000000000000       0x18 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_GetHCLKFreq
+                0x0000000000000000       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_GetPCLK1Freq
+                0x0000000000000000       0x28 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_GetPCLK2Freq
+                0x0000000000000000       0x28 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_GetOscConfig
+                0x0000000000000000      0x104 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_GetClockConfig
+                0x0000000000000000       0x60 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_NMI_IRQHandler
+                0x0000000000000000       0x28 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text.HAL_RCC_CSSCallback
+                0x0000000000000000        0xc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0xa6c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x20f ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x2e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x56 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x51 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x103 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x6a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x1df ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x22 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0xbd ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0xd23 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000     0xe09e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x6d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000     0x348d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x174 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x5c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x5bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x289 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x1cb ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x114 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x1b2 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x27 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x136 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x1bc ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x34 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x3c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x57 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x87 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x240 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000      0x140 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .debug_macro   0x0000000000000000       0x83 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-errno.o)
+ .text.__errno  0x0000000000000000        0xc /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .rodata        0x0000000000000000       0x24 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .text          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .data          0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020000000 0x0000000000005000 xrw
+FLASH            0x0000000008000000 0x0000000000010000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+START GROUP
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+END GROUP
+LOAD CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+LOAD CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+LOAD CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+LOAD CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o
+LOAD CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o
+LOAD CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+LOAD ../lib/STM32F103xB/libSTM32F103xB_HAL.a
+START GROUP
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000020005000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000000000200                _Min_Heap_Size = 0x200
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x10c
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+                0x0000000008000000                g_pfnVectors
+                0x000000000800010c                . = ALIGN (0x4)
+
+.text           0x000000000800010c     0x10c4
+                0x000000000800010c                . = ALIGN (0x4)
+ *(.text)
+ .text          0x000000000800010c       0x40 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *(.text*)
+ .text.__libc_init_array
+                0x000000000800014c       0x48 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                0x000000000800014c                __libc_init_array
+ .text.memset   0x0000000008000194       0x10 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x0000000008000194                memset
+ .text.main     0x00000000080001a4       0x3c CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+                0x00000000080001a4                main
+ .text.HAL_MspInit
+                0x00000000080001e0       0x64 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+                0x00000000080001e0                HAL_MspInit
+ .text.SystemClock_Config
+                0x0000000008000244       0x76 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+                0x0000000008000244                SystemClock_Config
+ *fill*         0x00000000080002ba        0x2 
+ .text.MX_GPIO_Init
+                0x00000000080002bc       0x98 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .text.Error_Handler
+                0x0000000008000354        0xa CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+                0x0000000008000354                Error_Handler
+ *fill*         0x000000000800035e        0x2 
+ .text.Reset_Handler
+                0x0000000008000360       0x48 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+                0x0000000008000360                Reset_Handler
+ .text.Default_Handler
+                0x00000000080003a8        0x2 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+                0x00000000080003a8                RTC_Alarm_IRQHandler
+                0x00000000080003a8                EXTI2_IRQHandler
+                0x00000000080003a8                TIM1_CC_IRQHandler
+                0x00000000080003a8                PVD_IRQHandler
+                0x00000000080003a8                EXTI3_IRQHandler
+                0x00000000080003a8                EXTI0_IRQHandler
+                0x00000000080003a8                I2C2_EV_IRQHandler
+                0x00000000080003a8                ADC1_2_IRQHandler
+                0x00000000080003a8                SPI1_IRQHandler
+                0x00000000080003a8                TAMPER_IRQHandler
+                0x00000000080003a8                DMA1_Channel4_IRQHandler
+                0x00000000080003a8                USART3_IRQHandler
+                0x00000000080003a8                RTC_IRQHandler
+                0x00000000080003a8                DMA1_Channel7_IRQHandler
+                0x00000000080003a8                CAN1_RX1_IRQHandler
+                0x00000000080003a8                TIM4_IRQHandler
+                0x00000000080003a8                I2C1_EV_IRQHandler
+                0x00000000080003a8                DMA1_Channel6_IRQHandler
+                0x00000000080003a8                TIM3_IRQHandler
+                0x00000000080003a8                RCC_IRQHandler
+                0x00000000080003a8                TIM1_TRG_COM_IRQHandler
+                0x00000000080003a8                DMA1_Channel1_IRQHandler
+                0x00000000080003a8                Default_Handler
+                0x00000000080003a8                EXTI15_10_IRQHandler
+                0x00000000080003a8                EXTI9_5_IRQHandler
+                0x00000000080003a8                SPI2_IRQHandler
+                0x00000000080003a8                DMA1_Channel5_IRQHandler
+                0x00000000080003a8                EXTI4_IRQHandler
+                0x00000000080003a8                USB_LP_CAN1_RX0_IRQHandler
+                0x00000000080003a8                USB_HP_CAN1_TX_IRQHandler
+                0x00000000080003a8                DMA1_Channel3_IRQHandler
+                0x00000000080003a8                TIM1_UP_IRQHandler
+                0x00000000080003a8                WWDG_IRQHandler
+                0x00000000080003a8                TIM2_IRQHandler
+                0x00000000080003a8                TIM1_BRK_IRQHandler
+                0x00000000080003a8                EXTI1_IRQHandler
+                0x00000000080003a8                USART2_IRQHandler
+                0x00000000080003a8                I2C2_ER_IRQHandler
+                0x00000000080003a8                DMA1_Channel2_IRQHandler
+                0x00000000080003a8                CAN1_SCE_IRQHandler
+                0x00000000080003a8                FLASH_IRQHandler
+                0x00000000080003a8                USART1_IRQHandler
+                0x00000000080003a8                I2C1_ER_IRQHandler
+                0x00000000080003a8                USBWakeUp_IRQHandler
+ .text.NMI_Handler
+                0x00000000080003aa        0x6 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003aa                NMI_Handler
+ .text.HardFault_Handler
+                0x00000000080003b0        0x6 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003b0                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000000080003b6        0x6 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003b6                MemManage_Handler
+ .text.BusFault_Handler
+                0x00000000080003bc        0x6 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003bc                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000000080003c2        0x6 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003c2                UsageFault_Handler
+ .text.SVC_Handler
+                0x00000000080003c8        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003c8                SVC_Handler
+ .text.DebugMon_Handler
+                0x00000000080003d4        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003d4                DebugMon_Handler
+ .text.PendSV_Handler
+                0x00000000080003e0        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003e0                PendSV_Handler
+ .text.SysTick_Handler
+                0x00000000080003ec        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                0x00000000080003ec                SysTick_Handler
+ .text.SystemInit
+                0x00000000080003f8        0xc CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+                0x00000000080003f8                SystemInit
+ .text.HAL_Init
+                0x0000000008000404       0x2c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                0x0000000008000404                HAL_Init
+ .text.HAL_InitTick
+                0x0000000008000430       0x60 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                0x0000000008000430                HAL_InitTick
+ .text.HAL_IncTick
+                0x0000000008000490       0x24 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                0x0000000008000490                HAL_IncTick
+ .text.HAL_GetTick
+                0x00000000080004b4       0x14 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                0x00000000080004b4                HAL_GetTick
+ .text.__NVIC_SetPriorityGrouping
+                0x00000000080004c8       0x48 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_GetPriorityGrouping
+                0x0000000008000510       0x1c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.__NVIC_SetPriority
+                0x000000000800052c       0x54 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.NVIC_EncodePriority
+                0x0000000008000580       0x64 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.SysTick_Config
+                0x00000000080005e4       0x44 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x0000000008000628       0x16 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+                0x0000000008000628                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x000000000800063e       0x38 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+                0x000000000800063e                HAL_NVIC_SetPriority
+ .text.HAL_SYSTICK_Config
+                0x0000000008000676       0x18 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+                0x0000000008000676                HAL_SYSTICK_Config
+ *fill*         0x000000000800068e        0x2 
+ .text.HAL_GPIO_Init
+                0x0000000008000690      0x308 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+                0x0000000008000690                HAL_GPIO_Init
+ .text.HAL_GPIO_WritePin
+                0x0000000008000998       0x30 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+                0x0000000008000998                HAL_GPIO_WritePin
+ .text.HAL_GPIO_TogglePin
+                0x00000000080009c8       0x32 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+                0x00000000080009c8                HAL_GPIO_TogglePin
+ *fill*         0x00000000080009fa        0x2 
+ .text.HAL_RCC_OscConfig
+                0x00000000080009fc      0x504 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+                0x00000000080009fc                HAL_RCC_OscConfig
+ .text.HAL_RCC_ClockConfig
+                0x0000000008000f00      0x1d4 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+                0x0000000008000f00                HAL_RCC_ClockConfig
+ .text.HAL_RCC_GetSysClockFreq
+                0x00000000080010d4       0xa8 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+                0x00000000080010d4                HAL_RCC_GetSysClockFreq
+ .text.RCC_Delay
+                0x000000000800117c       0x3c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ *(.glue_7)
+ .glue_7        0x00000000080011b8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000080011b8        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00000000080011b8        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x00000000080011b8        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080011b8                _init
+ .init          0x00000000080011bc        0x8 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x00000000080011c4        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080011c4                _fini
+ .fini          0x00000000080011c8        0x8 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000000080011d0                . = ALIGN (0x4)
+                0x00000000080011d0                _etext = .
+
+.vfp11_veneer   0x00000000080011d0        0x0
+ .vfp11_veneer  0x00000000080011d0        0x0 linker stubs
+
+.v4_bx          0x00000000080011d0        0x0
+ .v4_bx         0x00000000080011d0        0x0 linker stubs
+
+.iplt           0x00000000080011d0        0x0
+ .iplt          0x00000000080011d0        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+
+.rodata         0x00000000080011d0       0x24
+                0x00000000080011d0                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.AHBPrescTable
+                0x00000000080011d0       0x10 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+                0x00000000080011d0                AHBPrescTable
+ .rodata.aPLLMULFactorTable.1
+                0x00000000080011e0       0x10 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .rodata.aPredivFactorTable.0
+                0x00000000080011f0        0x2 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+                0x00000000080011f4                . = ALIGN (0x4)
+ *fill*         0x00000000080011f2        0x2 
+
+.rel.dyn        0x00000000080011f4        0x0
+ .rel.iplt      0x00000000080011f4        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+
+.ARM.extab      0x00000000080011f4        0x0
+                0x00000000080011f4                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000080011f4                . = ALIGN (0x4)
+
+.ARM            0x00000000080011f4        0x0
+                0x00000000080011f4                . = ALIGN (0x4)
+                0x00000000080011f4                __exidx_start = .
+ *(.ARM.exidx*)
+                0x00000000080011f4                __exidx_end = .
+                0x00000000080011f4                . = ALIGN (0x4)
+
+.preinit_array  0x00000000080011f4        0x0
+                0x00000000080011f4                . = ALIGN (0x4)
+                0x00000000080011f4                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x00000000080011f4                PROVIDE (__preinit_array_end = .)
+                0x00000000080011f4                . = ALIGN (0x4)
+
+.init_array     0x00000000080011f4        0x4
+                0x00000000080011f4                . = ALIGN (0x4)
+                0x00000000080011f4                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00000000080011f4        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x00000000080011f8                PROVIDE (__init_array_end = .)
+                0x00000000080011f8                . = ALIGN (0x4)
+
+.fini_array     0x00000000080011f8        0x4
+                0x00000000080011f8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00000000080011f8        0x4 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x00000000080011fc                . = ALIGN (0x4)
+                0x00000000080011fc                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0xc load address 0x00000000080011fc
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x0000000020000000        0x4 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+                0x0000000020000000                SystemCoreClock
+ .data.uwTickPrio
+                0x0000000020000004        0x4 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                0x0000000020000004                uwTickPrio
+ .data.uwTickFreq
+                0x0000000020000008        0x1 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                0x0000000020000008                uwTickFreq
+ *(.RamFunc)
+ *(.RamFunc*)
+                0x000000002000000c                . = ALIGN (0x4)
+ *fill*         0x0000000020000009        0x3 
+                0x000000002000000c                _edata = .
+
+.igot.plt       0x000000002000000c        0x0 load address 0x0000000008001208
+ .igot.plt      0x000000002000000c        0x0 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x000000002000000c                . = ALIGN (0x4)
+
+.bss            0x000000002000000c       0x20 load address 0x0000000008001208
+                0x000000002000000c                _sbss = .
+                0x000000002000000c                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x000000002000000c       0x1c /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *(.bss*)
+ .bss.uwTick    0x0000000020000028        0x4 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                0x0000000020000028                uwTick
+ *(COMMON)
+                0x000000002000002c                . = ALIGN (0x4)
+                0x000000002000002c                _ebss = .
+                0x000000002000002c                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x000000002000002c      0x604 load address 0x0000000008001208
+                0x0000000020000030                . = ALIGN (0x8)
+ *fill*         0x000000002000002c        0x4 
+                [!provide]                        PROVIDE (end = .)
+                0x0000000020000030                PROVIDE (_end = .)
+                0x0000000020000230                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000030      0x200 
+                0x0000000020000630                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000230      0x400 
+                0x0000000020000630                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .ARM.attributes
+                0x000000000000001d       0x2d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x000000000000004a       0x2d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000077       0x2d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000000a4       0x2d CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .ARM.attributes
+                0x00000000000000d1       0x21 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .ARM.attributes
+                0x00000000000000f2       0x2d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .ARM.attributes
+                0x000000000000011f       0x2d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .ARM.attributes
+                0x000000000000014c       0x2d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .ARM.attributes
+                0x0000000000000179       0x2d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .ARM.attributes
+                0x00000000000001a6       0x2d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .ARM.attributes
+                0x00000000000001d3       0x2d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+ .ARM.attributes
+                0x0000000000000200       0x1d /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+OUTPUT(blink.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+LOAD /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+
+.debug_frame    0x0000000000000000      0xd20
+ .debug_frame   0x0000000000000000       0x2c /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x000000000000002c       0x20 /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x000000000000004c       0xb8 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_frame   0x0000000000000104      0x104 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_frame   0x0000000000000208       0x58 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_frame   0x0000000000000260      0x334 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_frame   0x0000000000000594      0x428 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_frame   0x00000000000009bc      0x14c ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_frame   0x0000000000000b08      0x218 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+
+.debug_info     0x0000000000000000     0x28fa
+ .debug_info    0x0000000000000000      0x54e CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_info    0x000000000000054e       0x22 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .debug_info    0x0000000000000570      0x119 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_info    0x0000000000000689      0x23d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_info    0x00000000000008c6      0x6e1 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_info    0x0000000000000fa7      0xb20 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_info    0x0000000000001ac7      0x615 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_info    0x00000000000020dc      0x81e ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+
+.debug_abbrev   0x0000000000000000      0xc28
+ .debug_abbrev  0x0000000000000000      0x1aa CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_abbrev  0x00000000000001aa       0x12 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .debug_abbrev  0x00000000000001bc       0x61 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_abbrev  0x000000000000021d      0x13b CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_abbrev  0x0000000000000358      0x1c8 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_abbrev  0x0000000000000520      0x2ed ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_abbrev  0x000000000000080d      0x1bb ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_abbrev  0x00000000000009c8      0x260 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+
+.debug_aranges  0x0000000000000000      0x3b8
+ .debug_aranges
+                0x0000000000000000       0x40 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_aranges
+                0x0000000000000040       0x28 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .debug_aranges
+                0x0000000000000068       0x60 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_aranges
+                0x00000000000000c8       0x28 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_aranges
+                0x00000000000000f0       0xe0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_aranges
+                0x00000000000001d0      0x100 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_aranges
+                0x00000000000002d0       0x58 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_aranges
+                0x0000000000000328       0x90 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+
+.debug_ranges   0x0000000000000000      0x340
+ .debug_ranges  0x0000000000000000       0x30 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_ranges  0x0000000000000030       0x20 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .debug_ranges  0x0000000000000050       0x50 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_ranges  0x00000000000000a0       0x18 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_ranges  0x00000000000000b8       0xd0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_ranges  0x0000000000000188       0xf0 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_ranges  0x0000000000000278       0x48 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_ranges  0x00000000000002c0       0x80 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+
+.debug_macro    0x0000000000000000    0x15701
+ .debug_macro   0x0000000000000000      0x18e CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x000000000000018e      0xa6c CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000000bfa      0x20f CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000000e09       0x2e CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000000e37       0x22 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000000e59       0x22 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000000e7b       0x56 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000000ed1       0x51 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000000f22      0x103 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000001025       0x6a CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x000000000000108f      0x1df CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x000000000000126e       0x1c CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x000000000000128a       0x22 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x00000000000012ac       0xbd CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000001369      0xd23 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x000000000000208c     0xe09e CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x000000000001012a       0x6d CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000010197     0x348d CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000013624      0x174 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000013798       0x5c CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x00000000000137f4      0x5bc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000013db0      0x289 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014039      0x1cb CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014204      0x114 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014318      0x1b2 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x00000000000144ca       0x27 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x00000000000144f1      0x136 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014627      0x1bc CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x00000000000147e3       0x34 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014817       0x3c CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014853       0x57 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x00000000000148aa       0x87 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014931      0x240 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014b71      0x140 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014cb1       0x83 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_macro   0x0000000000014d34      0x198 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_macro   0x0000000000014ecc      0x184 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_macro   0x0000000000015050      0x1a8 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_macro   0x00000000000151f8      0x184 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_macro   0x000000000001537c      0x1ef ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_macro   0x000000000001556b      0x196 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+
+.debug_line     0x0000000000000000     0x35c2
+ .debug_line    0x0000000000000000      0x5c8 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+ .debug_line    0x00000000000005c8       0xb2 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+ .debug_line    0x000000000000067a      0x5ce CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .debug_line    0x0000000000000c48      0x54d CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .debug_line    0x0000000000001195      0x768 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .debug_line    0x00000000000018fd      0x950 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .debug_line    0x000000000000224d      0x801 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .debug_line    0x0000000000002a4e      0xb74 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+
+.debug_str      0x0000000000000000    0x7bad5
+ .debug_str     0x0000000000000000    0x7a9b7 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+                                      0x7ace3 (size before relaxing)
+ .debug_str     0x000000000007a9b7       0x62 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o
+                                         0x8f (size before relaxing)
+ .debug_str     0x000000000007aa19       0xed CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+                                      0x7ab05 (size before relaxing)
+ .debug_str     0x000000000007ab06       0xb8 CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+                                      0x7ab27 (size before relaxing)
+ .debug_str     0x000000000007abbe      0x640 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+                                      0x7b205 (size before relaxing)
+ .debug_str     0x000000000007b1fe      0x328 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+                                      0x7b1a0 (size before relaxing)
+ .debug_str     0x000000000007b526      0x342 ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+                                      0x7aea7 (size before relaxing)
+ .debug_str     0x000000000007b868      0x26d ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)
+                                      0x7af29 (size before relaxing)
+
+.comment        0x0000000000000000       0x49
+ .comment       0x0000000000000000       0x49 CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o
+                                         0x4a (size before relaxing)
+ .comment       0x0000000000000049       0x4a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o
+ .comment       0x0000000000000049       0x4a CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o
+ .comment       0x0000000000000049       0x4a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal.c.o)
+ .comment       0x0000000000000049       0x4a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_cortex.c.o)
+ .comment       0x0000000000000049       0x4a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_gpio.c.o)
+ .comment       0x0000000000000049       0x4a ../lib/STM32F103xB/libSTM32F103xB_HAL.a(stm32f1xx_hal_rcc.c.o)

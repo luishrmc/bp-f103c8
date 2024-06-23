@@ -1,0 +1,410 @@
+[
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/app",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/build/config_files/include -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o -c /home/lumac/learning/stm/bp-f103c8/app/src/controllers/mainController.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/app/src/controllers/mainController.c",
+  "output": "app/CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/app",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/build/config_files/include -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -x assembler-with-cpp -g -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s",
+  "output": "app/CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/startup_stm32f103c8tx.s.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/app",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/build/config_files/include -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/stm32f1xx_it.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/stm32f1xx_it.c",
+  "output": "app/CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/stm32f1xx_it.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/app",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/build/config_files/include -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/syscalls.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/syscalls.c",
+  "output": "app/CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/syscalls.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/app",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/build/config_files/include -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/sysmem.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/sysmem.c",
+  "output": "app/CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/sysmem.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/app",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/build/config_files/include -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wduplicated-cond -Wduplicated-branches -Wlogical-op -o CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/system_stm32f1xx.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/src/system_stm32f1xx.c",
+  "output": "app/CMakeFiles/blink.elf.dir/__/lib/STM32F103xB/core/src/system_stm32f1xx.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/Legacy/stm32f1xx_hal_can.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/Legacy/stm32f1xx_hal_can.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/Legacy/stm32f1xx_hal_can.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/Legacy/stm32f1xx_hal_can.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_adc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_adc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_adc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_adc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_adc_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_adc_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_adc_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_adc_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_can.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_can.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_can.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_can.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_cec.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_cec.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_cec.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_cec.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_cortex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_cortex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_cortex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_cortex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_crc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_crc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_crc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_crc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_dac.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_dac.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_dac.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_dac.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_dac_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_dac_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_dac_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_dac_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_dma.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_dma.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_dma.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_dma.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_eth.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_eth.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_eth.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_eth.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_exti.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_exti.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_exti.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_exti.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_flash.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_flash.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_flash.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_flash.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_flash_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_flash_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_flash_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_flash_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_gpio.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_gpio.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_gpio.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_gpio.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_gpio_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_gpio_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_gpio_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_gpio_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_hcd.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_hcd.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_hcd.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_hcd.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_i2c.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_i2c.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_i2c.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_i2c.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_i2s.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_i2s.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_i2s.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_i2s.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_irda.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_irda.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_irda.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_irda.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_iwdg.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_iwdg.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_iwdg.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_iwdg.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_mmc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_mmc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_mmc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_mmc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_nand.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_nand.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_nand.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_nand.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_nor.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_nor.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_nor.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_nor.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pccard.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pccard.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pccard.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pccard.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pcd.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pcd.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pcd.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pcd.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pcd_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pcd_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pcd_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pcd_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pwr.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pwr.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_pwr.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_pwr.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rcc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rcc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rcc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rcc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rcc_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rcc_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rcc_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rcc_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rtc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rtc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rtc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rtc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rtc_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rtc_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_rtc_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_rtc_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_sd.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_sd.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_sd.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_sd.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_smartcard.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_smartcard.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_smartcard.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_smartcard.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_spi.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_spi.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_spi.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_spi.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_sram.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_sram.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_sram.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_sram.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_tim.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_tim.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_tim.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_tim.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_tim_ex.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_tim_ex.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_tim_ex.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_tim_ex.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_uart.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_uart.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_uart.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_uart.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_usart.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_usart.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_usart.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_usart.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_wwdg.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_wwdg.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_hal_wwdg.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_hal_wwdg.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_adc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_adc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_adc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_adc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_crc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_crc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_crc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_crc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_dac.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_dac.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_dac.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_dac.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_dma.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_dma.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_dma.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_dma.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_exti.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_exti.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_exti.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_exti.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_fsmc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_fsmc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_fsmc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_fsmc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_gpio.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_gpio.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_gpio.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_gpio.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_i2c.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_i2c.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_i2c.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_i2c.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_pwr.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_pwr.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_pwr.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_pwr.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_rcc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_rcc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_rcc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_rcc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_rtc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_rtc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_rtc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_rtc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_sdmmc.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_sdmmc.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_sdmmc.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_sdmmc.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_spi.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_spi.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_spi.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_spi.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_tim.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_tim.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_tim.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_tim.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_usart.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_usart.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_usart.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_usart.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_usb.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_usb.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_usb.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_usb.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/lib/STM32F103xB",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc/Legacy -mcpu=cortex-m3 -std=gnu11 -mthumb  -mfloat-abi=soft -ffunction-sections -fdata-sections -g3 -std=c17 -o CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_utils.c.o -c /home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_utils.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Src/stm32f1xx_ll_utils.c",
+  "output": "lib/STM32F103xB/CMakeFiles/STM32F103xB_HAL.dir/hal-driver/Src/stm32f1xx_ll_utils.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/tests",
+  "command": "/usr/bin/gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/tests/prototype/inc -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -isystem /home/lumac/learning/stm/bp-f103c8/build/_deps/unity-src/src -isystem /home/lumac/learning/stm/bp-f103c8/build/_deps/unity-build -g3 -g3 -std=c17 -o CMakeFiles/TEST_FOO.dir/test_foo.c.o -c /home/lumac/learning/stm/bp-f103c8/tests/test_foo.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/tests/test_foo.c",
+  "output": "tests/CMakeFiles/TEST_FOO.dir/test_foo.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/_deps/unity-build",
+  "command": "/usr/bin/gcc  -I/home/lumac/learning/stm/bp-f103c8/build/_deps/unity-src/src -I/home/lumac/learning/stm/bp-f103c8/build/_deps/unity-build -g3 -g3 -std=c11 -Waddress -Waggregate-return -Wformat-nonliteral -Wformat-security -Wformat -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wno-multichar -Wno-parentheses -Wno-type-limits -Wno-unused-parameter -Wunreachable-code -Wwrite-strings -Wpointer-arith -Werror -Wall -o CMakeFiles/unity.dir/src/unity.c.o -c /home/lumac/learning/stm/bp-f103c8/build/_deps/unity-src/src/unity.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/build/_deps/unity-src/src/unity.c",
+  "output": "_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o"
+},
+{
+  "directory": "/home/lumac/learning/stm/bp-f103c8/build/tests/prototype",
+  "command": "/usr/bin/gcc -DSTM32F103xB -DUSE_HAL_DRIVER -I/home/lumac/learning/stm/bp-f103c8/tests/prototype/inc -I/home/lumac/learning/stm/bp-f103c8/app/inc/controllers -I/home/lumac/learning/stm/bp-f103c8/app/inc/drivers -I/home/lumac/learning/stm/bp-f103c8/app/inc/services -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/hal-driver/Inc -I/home/lumac/learning/stm/bp-f103c8/lib/STM32F103xB/core/inc -g3 -g3 -std=c17 -o CMakeFiles/PROTOTYPES.dir/src/prototype.c.o -c /home/lumac/learning/stm/bp-f103c8/tests/prototype/src/prototype.c",
+  "file": "/home/lumac/learning/stm/bp-f103c8/tests/prototype/src/prototype.c",
+  "output": "tests/prototype/CMakeFiles/PROTOTYPES.dir/src/prototype.c.o"
+}
+]

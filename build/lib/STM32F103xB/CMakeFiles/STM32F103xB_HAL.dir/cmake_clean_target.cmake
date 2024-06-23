@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libSTM32F103xB_HAL.a"
+)
