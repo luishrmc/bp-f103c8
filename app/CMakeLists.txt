@@ -40,6 +40,13 @@ target_link_libraries(${EXE_NAME} PRIVATE
     ${MCU}_HAL
 )
 
+if(ENABLE_FREERTOS)
+    target_link_libraries(${EXE_NAME} PRIVATE
+        freertos_kernel
+        freertos_config
+    )
+endif()
+
 target_compile_definitions(${EXE_NAME} PRIVATE
     ${MCU}
     USE_HAL_DRIVER
