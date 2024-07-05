@@ -32,7 +32,6 @@ int main(void)
     MX_GPIO_Init();
 
     uint32_t tim = 0xFFFF;
-    printf("Hello World\r\n");
 
     /* Infinite loop */
     while (1)
@@ -55,10 +54,6 @@ void HAL_MspInit(void)
     __HAL_RCC_PWR_CLK_ENABLE();
 
     /* System interrupt init*/
-
-    /** NOJTAG: JTAG-DP Disabled and SW-DP Enabled
-     */
-    // __HAL_AFIO_REMAP_SWJ_NOJTAG();
 
     /** ENABLE: Full SWJ (JTAG-DP + SW-DP): Reset State
      */
