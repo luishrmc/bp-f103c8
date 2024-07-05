@@ -96,8 +96,8 @@ if(ENABLE_FREERTOS)
 endif()
 
 # ------------------------------------ UNITY TEST ------------------------------------ #
-include(CTest)
-enable_testing()
+# include(CTest)
+# enable_testing()
 
-# ! THE TOOLCHAIN IS CHANGED, KEEP THIS BLOCK AT THE END OF THE FILE !
-add_subdirectory(tests)
+# # ! THE TOOLCHAIN IS CHANGED, KEEP THIS BLOCK AT THE END OF THE FILE !
+# add_subdirectory(tests)

@@ -22,8 +22,6 @@ static void MX_GPIO_Init(void);
  */
 int main(void)
 {
-    /* MCU Configuration--------------------------------------------------------*/
-
     /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
     HAL_Init();
 
@@ -34,6 +32,7 @@ int main(void)
     MX_GPIO_Init();
 
     uint32_t tim = 0xFFFF;
+    printf("Hello World\r\n");
 
     /* Infinite loop */
     while (1)
@@ -59,7 +58,11 @@ void HAL_MspInit(void)
 
     /** NOJTAG: JTAG-DP Disabled and SW-DP Enabled
      */
-    __HAL_AFIO_REMAP_SWJ_NOJTAG();
+    // __HAL_AFIO_REMAP_SWJ_NOJTAG();
+
+    /** ENABLE: Full SWJ (JTAG-DP + SW-DP): Reset State
+     */
+    __HAL_AFIO_REMAP_SWJ_ENABLE();
 }
 
 /**
