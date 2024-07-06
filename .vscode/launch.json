@@ -19,14 +19,16 @@
             "preLaunchTask": "Compile - Debug",
             "svdFile": "${workspaceFolder}/config/svd/STM32F103.svd",
             "rtos": "FreeRTOS",
-            "rttConfig": {
+            "swoConfig": {
                 "enabled": true,
-                "address": "auto",
+                "cpuFrequency": 8000000,
+                "swoFrequency": 2000000,
+                "source": "probe",
                 "decoders": [
                     {
-                        "label": "RTT",
-                        "port": 0,
-                        "type": "console"
+                        "type": "console",
+                        "label": "ITM",
+                        "port": 0
                     }
                 ]
             }

@@ -6,7 +6,7 @@
     
     "C_Cpp.errorSquiggles": "disabled",
     "cmake.configureOnOpen": false,
-    "cortex-debug.variableUseNaturalFormat": false,
+    "cortex-debug.variableUseNaturalFormat": true,
     "files.associations": {
         "sleep.h": "c",
         "task.h": "c",
@@ -63,6 +63,11 @@
         "beaconcontroller.h": "c",
         "prototype.h": "c",
         "stm32f1xx.h": "c",
-        "stm32f1xx_it.h": "c"
+        "stm32f1xx_it.h": "c",
+        "uartdriver.h": "c",
+        "usartdrv.h": "c",
+        "sensorctrl.h": "c",
+        "tf1012srvc.h": "c",
+        "concatnum.h": "c"
     },
 }

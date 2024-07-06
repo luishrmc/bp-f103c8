@@ -16,9 +16,10 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "mainController.h"
+#include "mainCtrl.h"
 #include "stm32f1xx_it.h"
 extern TIM_HandleTypeDef htim4;
+extern UART_HandleTypeDef huart1;
 /******************************************************************************/
 /*           Cortex-M3 Processor Interruption and Exception Handlers          */
 /******************************************************************************/
@@ -84,6 +85,13 @@ void DebugMon_Handler(void)
 {
 }
 
+/******************************************************************************/
+/* STM32F1xx Peripheral Interrupt Handlers                                    */
+/* Add here the Interrupt Handlers for the used peripherals.                  */
+/* For the available peripheral interrupt handler names,                      */
+/* please refer to the startup file (startup_stm32f1xx.s).                    */
+/******************************************************************************/
+
 /**
  * @brief This function handles TIM4 global interrupt.
  */
@@ -92,9 +100,10 @@ void TIM4_IRQHandler(void)
   HAL_TIM_IRQHandler(&htim4);
 }
 
-/******************************************************************************/
-/* STM32F1xx Peripheral Interrupt Handlers                                    */
-/* Add here the Interrupt Handlers for the used peripherals.                  */
-/* For the available peripheral interrupt handler names,                      */
-/* please refer to the startup file (startup_stm32f1xx.s).                    */
-/******************************************************************************/
+/**
+ * @brief This function handles USART1 global interrupt.
+ */
+void USART1_IRQHandler(void)
+{
+  HAL_UART_IRQHandler(&huart1);
+}

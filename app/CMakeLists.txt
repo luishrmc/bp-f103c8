@@ -1,12 +1,17 @@
 add_executable(${EXE_NAME})
 
 set(CTRL "src/controllers")
-set(SERV "src/services")
+set(SRVC "src/services")
 set(DRV "src/drivers")
 set(CORE "lib/${MCU}/core/src")
 
 target_sources(${EXE_NAME} PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/${CTRL}/mainController.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${CTRL}/mainCtrl.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${CTRL}/sensorCtrl.c
+
+    ${CMAKE_CURRENT_SOURCE_DIR}/${DRV}/usartDrv.c
+
+    ${CMAKE_CURRENT_SOURCE_DIR}/${SRVC}/TF1012Srvc.c
 
     ${PROJECT_SOURCE_DIR}/${CORE}/freertos.c
     ${PROJECT_SOURCE_DIR}/${CORE}/startup_stm32f103c8tx.s
@@ -42,7 +47,7 @@ target_link_libraries(${EXE_NAME} PRIVATE
     ${MCU}_HAL
     freertos_kernel
     freertos_config
-    SEGGER
+    UTILS
 )
 
 target_compile_definitions(${EXE_NAME} PRIVATE
