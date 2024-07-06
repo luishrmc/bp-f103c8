@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 
 set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
 
-set(PROJECT_NAME blink)
+set(PROJECT_NAME freeRTOS)
 set(EXE_NAME ${PROJECT_NAME}.elf)
 
 #[[ ccache is a compiler cache designed to speed up the compilation process by 
@@ -45,7 +45,7 @@ project(${PROJECT_NAME}
 )
 
 # ------------------------------------ FREE RTOS ------------------------------------ #
-option(ENABLE_FREERTOS "Enable FreeRTOS" OFF)
+option(ENABLE_FREERTOS "Enable FreeRTOS" ON)
 
 if(ENABLE_FREERTOS)
     # Adding the FreeRTOS-Kernel subdirectory
@@ -57,13 +57,16 @@ if(ENABLE_FREERTOS)
     target_include_directories(freertos_config
         INTERFACE
         "${CMAKE_CURRENT_SOURCE_DIR}/config"
+        "${CMAKE_CURRENT_SOURCE_DIR}/lib/SEGGER/SystemView_Src_V354/Sample/FreeRTOSV11"
+        "${CMAKE_CURRENT_SOURCE_DIR}/lib/SEGGER/SystemView_Src_V354/SEGGER"
+        "${CMAKE_CURRENT_SOURCE_DIR}/lib/SEGGER/SystemView_Src_V354/Config"
     )
 
     # Select the heap port.  values between 1-4 will pick a heap.
     set(FREERTOS_HEAP "4" CACHE STRING "" FORCE)
 
     # Select the native compile PORT
-    set(FREERTOS_PORT "GCC_ARM_CM4F" CACHE STRING "" FORCE)
+    set(FREERTOS_PORT "GCC_ARM_CM3" CACHE STRING "" FORCE)
 endif()
 
 # ------------------------------------ OPTIONS ------------------------------------ #
@@ -94,10 +97,3 @@ add_subdirectory(lib)
 if(ENABLE_FREERTOS)
     CPMAddPackage("gh:FreeRTOS/FreeRTOS-Kernel#V11.1.0")
 endif()
-
-# ------------------------------------ UNITY TEST ------------------------------------ #
-# include(CTest)
-# enable_testing()
-
-# # ! THE TOOLCHAIN IS CHANGED, KEEP THIS BLOCK AT THE END OF THE FILE !
-# add_subdirectory(tests)

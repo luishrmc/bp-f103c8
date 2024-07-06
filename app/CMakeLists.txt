@@ -8,7 +8,9 @@ set(CORE "lib/${MCU}/core/src")
 target_sources(${EXE_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/${CTRL}/mainController.c
 
+    ${PROJECT_SOURCE_DIR}/${CORE}/freertos.c
     ${PROJECT_SOURCE_DIR}/${CORE}/startup_stm32f103c8tx.s
+    ${PROJECT_SOURCE_DIR}/${CORE}/stm32f1xx_hal_timebase_tim.c
     ${PROJECT_SOURCE_DIR}/${CORE}/stm32f1xx_it.c
     ${PROJECT_SOURCE_DIR}/${CORE}/syscalls.c
     ${PROJECT_SOURCE_DIR}/${CORE}/sysmem.c
@@ -38,14 +40,10 @@ target_link_options(${EXE_NAME} PRIVATE
 
 target_link_libraries(${EXE_NAME} PRIVATE
     ${MCU}_HAL
+    freertos_kernel
+    freertos_config
+    SEGGER
 )
-
-if(ENABLE_FREERTOS)
-    target_link_libraries(${EXE_NAME} PRIVATE
-        freertos_kernel
-        freertos_config
-    )
-endif()
 
 target_compile_definitions(${EXE_NAME} PRIVATE
     ${MCU}

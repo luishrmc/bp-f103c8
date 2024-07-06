@@ -2,6 +2,12 @@
 #include "mainController.h"
 #include "stm32f1xx.h"
 #include "stdint.h"
+#include "config.h"
+/* FreeRTOS includes. */
+#include "FreeRTOS.h"
+#include "task.h"
+/* RTT includes. */
+#include "SEGGER_RTT.h"
 /* Private typedef -----------------------------------------------------------*/
 
 /* Private define ------------------------------------------------------------*/
@@ -9,11 +15,12 @@
 /* Private macro -------------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/
-
+TaskHandle_t xTask1;
+BaseType_t xStatus;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-
+static void vTask1(void *pvParameters);
 /* Private user code ---------------------------------------------------------*/
 
 /**
@@ -31,21 +38,24 @@ int main(void)
     /* Initialize all configured peripherals */
     MX_GPIO_Init();
 
-    uint32_t tim = 0xFFFF;
-    printf("Hello World\r\n");
+    traceSTART();
 
+    /* In FreeRTOS stack is not in bytes, but in sizeof(StackType_t) which is 4 on ARM ports.       */
+    /* Stack size should be therefore 4 byte aligned in order to avoid division caused side effects */
+    uint32_t stackSize = (1024 / 4);
+    uint32_t stack = stackSize / sizeof(StackType_t);
+
+    xStatus = xTaskCreate(vTask1, "Task1", (uint16_t)stack, NULL, 2, &xTask1);
+    configASSERT(xStatus == pdPASS);
+
+    SEGGER_RTT_ConfigUpBuffer(0, NULL, NULL, 0, SEGGER_RTT_MODE_BLOCK_IF_FIFO_FULL);
+    SEGGER_RTT_printf(0, "###### %s - v%s ######\r\n", PROJECT_NAME, PROJECT_VERSION);
+
+    // start the freeRTOS scheduler
+    vTaskStartScheduler();
     /* Infinite loop */
     while (1)
     {
-        if (tim == 0)
-        {
-            tim = 0xFFFF;
-            HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-        }
-        else
-        {
-            tim--;
-        }
     }
 }
 
@@ -55,10 +65,6 @@ void HAL_MspInit(void)
     __HAL_RCC_PWR_CLK_ENABLE();
 
     /* System interrupt init*/
-
-    /** NOJTAG: JTAG-DP Disabled and SW-DP Enabled
-     */
-    // __HAL_AFIO_REMAP_SWJ_NOJTAG();
 
     /** ENABLE: Full SWJ (JTAG-DP + SW-DP): Reset State
      */
@@ -125,6 +131,31 @@ static void MX_GPIO_Init(void)
     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 }
 
+static void vTask1(void *pvParameters)
+{
+    while (1)
+    {
+        HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+        vTaskDelay(pdMS_TO_TICKS(200));
+    }
+}
+
+/**
+ * @brief  Period elapsed callback in non blocking mode
+ * @note   This function is called  when TIM4 interrupt took place, inside
+ * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+ * a global variable "uwTick" used as application time base.
+ * @param  htim : TIM handle
+ * @retval None
+ */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if (htim->Instance == TIM4)
+    {
+        HAL_IncTick();
+    }
+}
+
 /**
  * @brief  This function is executed in case of error occurrence.
  * @retval None
@@ -147,9 +178,7 @@ void Error_Handler(void)
  */
 void assert_failed(uint8_t *file, uint32_t line)
 {
-    /* USER CODE BEGIN 6 */
-    /* User can add his own implementation to report the file name and line number,
-       ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
-    /* USER CODE END 6 */
+ex:
+    printf("Wrong parameters value: file %s on line %d\r\n", file, line) * /
 }
 #endif /* USE_FULL_ASSERT */
