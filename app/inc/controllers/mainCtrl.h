@@ -1,6 +1,6 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __MAIN_H
-#define __MAIN_H
+#ifndef __MAINCTRL_H
+#define __MAINCTRL_H
 
 #ifdef __cplusplus
 extern "C"
@@ -27,4 +27,4 @@ extern "C"
 }
 #endif
 
-#endif /* __MAIN_H */
+#endif /* __MAINCTRL_H */

@@ -6,7 +6,14 @@ set(DRV "src/drivers")
 set(CORE "lib/${MCU}/core/src")
 
 target_sources(${EXE_NAME} PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/${CTRL}/mainController.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${CTRL}/commCtrl.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${CTRL}/mainCtrl.c
+
+    ${CMAKE_CURRENT_SOURCE_DIR}/${DRV}/canDrv.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${DRV}/i2cDrv.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${DRV}/spiDrv.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${DRV}/usartDrv.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/${DRV}/usbDrv.c
 
     ${PROJECT_SOURCE_DIR}/${CORE}/startup_stm32f103c8tx.s
     ${PROJECT_SOURCE_DIR}/${CORE}/stm32f1xx_it.c
@@ -38,14 +45,8 @@ target_link_options(${EXE_NAME} PRIVATE
 
 target_link_libraries(${EXE_NAME} PRIVATE
     ${MCU}_HAL
+    UTILS
 )
-
-if(ENABLE_FREERTOS)
-    target_link_libraries(${EXE_NAME} PRIVATE
-        freertos_kernel
-        freertos_config
-    )
-endif()
 
 target_compile_definitions(${EXE_NAME} PRIVATE
     ${MCU}

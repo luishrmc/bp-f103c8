@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 
 set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
 
-set(PROJECT_NAME blink)
+set(PROJECT_NAME communication)
 set(EXE_NAME ${PROJECT_NAME}.elf)
 
 #[[ ccache is a compiler cache designed to speed up the compilation process by 
@@ -94,10 +94,3 @@ add_subdirectory(lib)
 if(ENABLE_FREERTOS)
     CPMAddPackage("gh:FreeRTOS/FreeRTOS-Kernel#V11.1.0")
 endif()
-
-# ------------------------------------ UNITY TEST ------------------------------------ #
-# include(CTest)
-# enable_testing()
-
-# # ! THE TOOLCHAIN IS CHANGED, KEEP THIS BLOCK AT THE END OF THE FILE !
-# add_subdirectory(tests)

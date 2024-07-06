@@ -45,7 +45,7 @@
 			"command": "cmake",
 			"args": [
 				"..",
-				"-DCMAKE_BUILD_TYPE=Debug"
+				"-DCMAKE_BUILD_TYPE=Release"
 			],
 			"problemMatcher": [],
 			"group": {
@@ -74,15 +74,12 @@
 			"type": "shell",
 			"label": "Run Debug",
 			"options": {
-				"cwd": "${workspaceFolder}/build/app"
+				"cwd": "${workspaceFolder}/config/jlink"
 			},
-			"command": "st-flash",
+			"command": "JLinkExe",
 			"args": [
-				"--reset",
-				"--connect-under-reset",
-				"write",
-				"blink.bin",
-				"0x8000000"
+				"-CommandFile",
+				"flash.jlink"
 			],
 			"dependsOn": [
 				"Compile - Debug"
@@ -96,14 +93,12 @@
 			"type": "shell",
 			"label": "Run Release",
 			"options": {
-				"cwd": "${workspaceFolder}/build/app"
+				"cwd": "${workspaceFolder}/config/jlink"
 			},
-			"command": "st-flash",
+			"command": "JLinkExe",
 			"args": [
-				"--reset",
-				"write",
-				"blink.bin",
-				"0x8000000"
+				"-CommandFile",
+				"flash.jlink"
 			],
 			"dependsOn": [
 				"Compile - Release"
@@ -117,12 +112,12 @@
 			"type": "shell",
 			"label": "Erase Target",
 			"options": {
-				"cwd": "${workspaceFolder}"
+				"cwd": "${workspaceFolder}/config/jlink"
 			},
-			"command": "st-flash",
+			"command": "JLinkExe",
 			"args": [
-				"--reset",
-				"erase"
+				"-CommandFile",
+				"erase.jlink"
 			],
 			"problemMatcher": [],
 			"group": {
@@ -148,32 +143,5 @@
 				"kind": "none"
 			}
 		},
-		{
-			"type": "shell",
-			"label": "Run Test",
-			"options": {
-				"cwd": "${workspaceFolder}/build"
-			},
-			"command": "ctest",
-			"args": [
-				"--output-on-failure"
-			],
-			"problemMatcher": []
-		},
-		{
-			"type": "shell",
-			"label": "Doxygen",
-			"options": {
-				"cwd": "${workspaceFolder}/build"
-			},
-			"command": "make",
-			"args": [
-				"docs",
-			],
-			"dependsOn": [
-				"Compile - Debug"
-			],
-			"problemMatcher": []
-		}
 	]
 }
