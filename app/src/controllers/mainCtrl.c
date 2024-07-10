@@ -45,21 +45,21 @@ int main(void)
     /* Initialize all configured peripherals */
     MX_GPIO_Init();
 
-    uint32_t tim = 0xFFFF;
+    uint32_t tim = 0xFFFFF;
     commCtrlInit();
     /* Infinite loop */
     while (1)
     {
         if (tim == 0)
         {
-            tim = 0xFFFF;
+            tim = 0xFFFFF;
             HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
         }
         else
         {
             tim--;
         }
-        commCtrlRun();
+        commCtrlRunSPI();
     }
 }
 
